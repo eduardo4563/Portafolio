@@ -28,27 +28,119 @@
     color: white;
 }
 .co{
-    padding-top: 200px;
+   padding-top: 228px;
+   
+   
     
 }
 .fot_perfil{
     height: 150px;
     opacity: 0.6;
     border-radius: 160px;
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 80%;
     padding: 15px;
 }
-.cont-im{
-    
-    width: 20%;
-    height: 250px;
-    
-
-}
 .i{
-    margin-left: 150px;
+  padding-left: 150px;
 }
-/*.cont-letra{
-    
-}*/
+
+#q{
+  color: white;
+}
+
+.c{
+  padding-left: 470px;
+  margin-top: -187px;
+}
+.con{
+  display: flex;
+   justify-content: space-between;
+  
+}
+.info{
+  
+  
+  width: 40%;
+}
+.tecnologias{
+  width: 40%;
+}
+
+.tec{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding-top: 15px;
+  
+ 
+}
+.d{
+  
+  padding-left: 15px;
+}
+.w{
+  padding-left: 2px;
+}
+.j{
+  padding-left: 1px;
+}
+.g{
+  padding-left: 18px;
+}
+.cards {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .cards-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-buttons {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-bodys {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .text-titles {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .cards:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .cards:hover .card-buttons {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
