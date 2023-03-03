@@ -166,6 +166,7 @@
 .flex{
   display: flex;
   
+  
 }
 .cafe{
   background-image: url('../img/cafe.webp');
@@ -196,6 +197,9 @@
 .CS{
   padding-left: 10px;
 }
+.ja{
+  padding-left: 10px;
+}
 .bt{
   text-decoration: none;
   background-color: #86868B;
@@ -206,4 +210,46 @@
 .bt:hover{
   
   color: white;
+}
+.csd{
+ 
+  height: 650px;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ 
+  
+}
+
+
+.proyec2{
+  background-image: url('../img/calc.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+  height: 100%;
+}
+.calculadora{
+  background-image: url('../img/calc.webp');
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  height: 290px;
+  border-radius: 9px;
+
+  
+}
+.info2{
+  width: 62%;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hanilidades{
+ padding-top: 35px;
+}
+.text{
+  
+  text-align: center;
 }
