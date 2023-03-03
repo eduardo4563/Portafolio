@@ -1,6 +1,7 @@
 const maquina=document.getElementById("maquina")
 
 
+
 const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     let arrayCaracteres = text.split('')
     etiqueta.innerHTML = ''
@@ -22,5 +23,5 @@ const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     }, tiempo)
   }
   
-  
+
   maquinaEscribir("Desarrollador de Sotware FullStack.  ",100, maquina)
