@@ -168,7 +168,7 @@
 
     <div>
       <div class="container my-5">
-        <div class="con">
+        <div class="con animado">
           <div class="info">
             <h4>¿Quien soy?</h4>
             <div class="pt-2"></div>
@@ -242,7 +242,7 @@
           </div>
         </div>
         <div class="pt-5"></div>
-        <div class="">
+        <div class="animado">
           <h4>Ultimos Proyectos</h4>
           <div class="pt-3"></div>
           <div class="csd">
@@ -330,7 +330,7 @@
           </div>
         </div>
 
-        <div class="hanilidades">
+        <div class="hanilidades animado">
           <div class="text">
             <h4>Habilidades y Aptitudes</h4>
             <p>
@@ -342,213 +342,64 @@
           </div>
         </div>
         <div class="pt-5"></div>
-        <div class="container" id="principal">
-          <div class="accordion dos" id="accordionExample">
-            <div>
-              <h5>Habilidades Blandas</h5>
-              <div class="pt-3"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Accordion Item #1
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="container animado" id="principal">
+          <nav class="accordion arrows" id="uno">
+            <header class="box">
+              <label for="acc-close" class="box-title">Habilidades Blandas  </label>
+            </header>
+            <input type="radio" name="accordion" id="cb1" />
+            <section class="box">
+              <label class="box-title" for="cb1">Readme</label>
+              <label class="box-close" for="acc-close"></label>
+              <div class="box-content">Click on an item to open. Click on its header or the list header to close.</div>
+            </section>
+            <input type="radio" name="accordion" id="cb2" />
+            <section class="box">
+              <label class="box-title" for="cb2">Read me too</label>
+              <label class="box-close" for="acc-close"></label>
+              <div class="box-content">Add the class 'arrows' to nav.accordion to add dropdown arrows.</div>
+            </section>
+            <input type="radio" name="accordion" id="cb3" />
+            <section class="box">
+              <label class="box-title" for="cb3">Item 3</label>
+              <label class="box-close" for="acc-close"></label>
+              <div class="box-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus tristique nisi, maximus ullamcorper ante finibus eget.</div>
+            </section>
+        
+            <input type="radio" name="accordion" id="acc-close" />
+          </nav>
 
-          <div class="accordion dos" id="accordionFlushExample">
-            <div>
-              <h5>Habilidades Tecnol&oacute;gicas</h5>
-              <div class="pt-3"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne"
-                    aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne"
-                  >
-                    Accordion Item #1d
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="panelsStayOpen-headingOne"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo"
-                  >
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingTwo"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree"
-                  >
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="panelsStayOpen-headingThree"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+          <nav class="accordion arrows" id="dos">
+            <header class="box">
+              <label for="acc-closes" class="box-title">Habilidades Tecnol&oacute;gicas</label>
+            </header>
+            <input type="radio" name="accordion" id="cb6" />
+            <section class="box">
+              <label class="box-title" for="cb6">Readme</label>
+              <label class="box-close" for="acc-closes"></label>
+              <div class="box-content">Click on an item to open. Click on its header or the list header to close.</div>
+            </section>
+            <input type="radio" name="accordion" id="cb8" />
+            <section class="box">
+              <label class="box-title" for="cb8">Read me too</label>
+              <label class="box-close" for="acc-closes"></label>
+              <div class="box-content">Add the class 'arrows' to nav.accordion to add dropdown arrows.</div>
+            </section>
+            <input type="radio" name="accordion" id="cb9" />
+            <section class="box">
+              <label class="box-title" for="cb9">Item 3</label>
+              <label class="box-close" for="acc-closes"></label>
+              <div class="box-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus tristique nisi, maximus ullamcorper ante finibus eget.</div>
+            </section>
+        
+            <input type="radio" name="accordion" id="acc-closes" />
+          </nav>
+  
         </div>
       </div>
 
-      <div class="fon">
+      <div class="fon animado">
         <div class="pt-2"></div>
         <div class="te">
           <h3 class="text-white">
@@ -567,101 +418,50 @@
       </div>
 
       <div class="container my-5">
-        <div class="formu">
-          <h4>Enviar un Mensaje</h4>
-          <form class="row g-3 needs-validation" novalidate action="h.html">
-            <div class="col-md-4">
-              <label for="validationCustom01" class="form-label"
-                >First name</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="validationCustom01"
-                value="Mark"
-                required
-              />
-              <div class="valid-feedback">Looks good!</div>
-            </div>
-            <div class="col-md-4">
-              <label for="validationCustom02" class="form-label"
-                >Last name</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="validationCustom02"
-                value="Otto"
-                required
-              />
-              <div class="valid-feedback">Looks good!</div>
-            </div>
-            <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label"
-                >Username</label
-              >
-              <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="validationCustomUsername"
-                  aria-describedby="inputGroupPrepend"
-                  required
-                />
-                <div class="invalid-feedback">Please choose a username.</div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">City</label>
-              <input
-                type="text"
-                class="form-control"
-                id="validationCustom03"
-                required
-              />
-              <div class="invalid-feedback">Please provide a valid city.</div>
-            </div>
-            <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">State</label>
-              <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
-              </select>
-              <div class="invalid-feedback">Please select a valid state.</div>
-            </div>
-            <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Zip</label>
-              <input
-                type="text"
-                class="form-control"
-                id="validationCustom05"
-                required
-              />
-              <div class="invalid-feedback">Please provide a valid zip.</div>
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="invalidCheck"
-                  required
-                />
-                <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
+          <div  class="for animado">
+            <h2 class="text-center">Enviar un mensaje</h2><div class="pt-3"></div>
+            <div class="ct">
+              <form action="#" class="formulario">
+                <div class="nombrex">
+                  <label for="">Nombres y Apellidos</label>
+                  <div class="apes">
+                    <input type="text" placeholder="Nombres y Apellidos" class="ape" required>
+                  </div>
                 </div>
-              </div>
+                <div class="asunto">
+                  <label for="">Asunto</label><br>
+                  <div class="asu">
+                    <input type="text" placeholder="Asunto" class="asuntos" required>
+                  </div>
+                </div>
+                <div class="empresa">
+                  <label for="">Empresa</label>
+                  <div class="em">
+                    <input type="text" placeholder="Empresa" class="empre" required>
+                  </div>
+                  
+                </div>
+                <div class="correo">
+                  <label for="">Correo electronico</label><br>
+                  <div class="corr">
+                    <input type="text" placeholder="Correo electronico" class="ele" required>
+                    
+                  </div>
+                </div>
+                <div class="mensaje">
+                  <label for="">Mensaje</label><br>
+                  <div class="texta">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="area" placeholder="Mensaje" required ></textarea>
+                  </div>
+                </div>
+                <div class="btns">
+                <button type="submit" class="enviar">Enviar</button>
+  
+                </div>
+                 
+              </form>
             </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-          </form>
-        </div>
+          </div>
       </div>
     </div>
     <!-- Modal -->
@@ -830,4 +630,5 @@
   </script>
 
   <script src="js/maqina.js"></script>
+  <script src="js/animar.js"></script>
 </html>
