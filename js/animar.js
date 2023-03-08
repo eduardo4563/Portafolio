@@ -9,4 +9,4 @@ function mostrarscrool(){
         }
     }
 }
-window.addEventListener('scroll',mostrarscrool
+window.addEventListener('scroll',mostrarscrool)
